@@ -1,0 +1,97 @@
+/* Body styling */
+body.login-page {
+    font-family: Arial, sans-serif;
+    background: url('opisina.jpg') no-repeat center center fixed;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+/* Login/Register box */
+.login-container {
+    background-color: rgba(255, 255, 255, 0.95);
+    padding: 40px 30px;
+    border-radius: 10px;
+    box-shadow: 0 8px 20px rgba(0,0,0,0.3);
+    width: 100%;
+    max-width: 400px;
+    text-align: center;
+}
+
+/* Logo */
+.login-container img.logo {
+    width: 120px;
+    margin-bottom: 20px;
+}
+
+/* Heading */
+.login-container h2 {
+    color: #1e3a8a;
+    margin-bottom: 30px;
+    font-size: 28px;
+}
+
+/* Input styling - UNIFIED (all same size) */
+.login-container input[type="text"],
+.login-container input[type="email"],
+.login-container input[type="password"] {
+    width: 100%;
+    padding: 12px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    font-size: 16px;
+    box-sizing: border-box;
+}
+
+/* Main button (Login/Register) */
+.login-container button {
+    width: 100%;
+    padding: 12px;
+    background-color: #1e3a8a;
+    color: white;
+    border: none;
+    border-radius: 6px;
+    font-size: 18px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background-color 0.3s, transform 0.2s;
+}
+
+.login-container button:hover {
+    background-color: #162f6f;
+    transform: scale(1.03);
+}
+
+/* Return Home button */
+.login-container .return-home-btn {
+    background-color: #162f6f;
+    margin-top: 15px;
+}
+
+.login-container .return-home-btn:hover {
+    background-color: #4b4f55;
+    transform: scale(1.03);
+}
+
+/* Links */
+.login-container a {
+    display: block;
+    margin-top: 10px;
+    color: #1e3a8a;
+    text-decoration: none;
+    font-size: 14px;
+}
+
+.login-container a:hover {
+    text-decoration: underline;
+}
+
+/* Error message */
+.login-container .error-msg {
+    color: red;
+    margin-bottom: 15px;
+}

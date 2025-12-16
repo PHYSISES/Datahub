@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Home - CharterProject</title>
+    <style>
+        body {
+            font-family: "Times New Roman", Times, serif;
+            background-color: #f0f0f0; /* Light gray page background */
+            color: #000;
+        }
+
+        .container {
+            max-width: 900px;
+            margin: 30px auto;
+            padding: 0 20px;
+        }
+
+        /* Solid white box for welcome section */
+        .welcome-box {
+            background-color: #f0f0f0;
+            padding: 25px;
+            margin-bottom: 30px;
+            border-radius: 10px;
+            text-align: center;
+            box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+            color: #000; /* Black text */
+        }
+
+        .welcome-box h1 {
+            font-size: 32px;
+            margin-bottom: 10px;
+        }
+
+        .welcome-box p {
+            font-size: 18px;
+            margin-bottom: 0;
+        }
+
+        /* Fading white boxes for sections */
+        .section-box {
+            background: linear-gradient(to bottom, rgba(255, 255, 255, 0.9), rgba(255, 255, 255, 0.6));
+            padding: 20px;
+            margin-bottom: 25px;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+            color: #000; /* Black text */
+        }
+
+        .section-box h2 {
+            margin-top: 0;
+            margin-bottom: 15px;
+            font-size: 24px;
+        }
+
+        .section-box p {
+            line-height: 1.8;
+            font-size: 16px;
+        }
+    </style>
+</head>
+<body>
+
+<?php include 'navbar.php'; ?>
+
+<div class="container">
+
+    <div class="welcome-box">
+        <h1>Welcome to Integration of a Centralized Data Server System for Converged ICT Solutions </h1>
+        <p>Your ICT Infrastructure Partner.</p>
+    </div>
+
+    <div class="section-box">
+        <h2>About the Company</h2>
+        <p>
+            The ntegration of a Centralized Data Server System for Converged ICT Solutions aims to revolutionize how Converge ICT Solutions manages its operations by creating a centralized, 
+            unified data processing system. Currently, multiple separate systems for customer management, billing, and network monitoring 
+            make it challenging to access accurate information and respond swiftly to customer needs. By integrating all these functions into a single, 
+            streamlined platform, the project will reduce redundant data by up to 50%, accelerate issue resolution, and enhance operational efficiency. 
+            This transformation ensures more reliable service, faster responses, and a significant boost in customer satisfaction. 
+            The project is designed to be delivered within a three-month timeline, leveraging open-source and cost-effective tools to maintain high quality 
+            while remaining budget-conscious.
+        </p>
+    </div>
+
+    <div class="section-box">
+        <h2>Mission</h2>
+        <p>
+            Our mission is to provide Converge ICT Solutions with a robust and fully integrated data management platform that ensures seamless coordination 
+            across customer service, billing, and network operations. We aim to empower the organization to make timely, informed decisions by delivering 
+            accurate and consistent data in real time. Through this platform, we seek to enhance operational efficiency, minimize redundancies, and optimize 
+            resource utilization. Furthermore, we are committed to supporting a culture of continuous improvement, fostering innovation, and providing 
+            reliable tools that enhance both employee productivity and customer satisfaction. By leveraging modern, cost-effective technologies,
+            we aim to deliver a sustainable solution that meets the company’s present needs while preparing it for future growth and technological 
+            advancements.
+        </p>
+    </div>
+
+    <div class="section-box">
+        <h2>Vision</h2>
+        <p>
+            Our vision is to position Converge ICT Solutions as a leader in the ICT industry by establishing a benchmark for operational excellence and technological innovation. 
+            We aspire to create a fully integrated ecosystem where data flows seamlessly, enabling proactive problem-solving and strategic decision-making. 
+            By achieving superior efficiency, reliability, and transparency in all operational processes, we aim to elevate the customer experience to the highest standard, 
+            fostering trust, loyalty, and long-term engagement. Ultimately, we envision a future where Converge ICT Solutions is recognized not only for its cutting-edge 
+            services but also for its ability to harness integrated systems to drive sustainable growth, continuous innovation, and lasting impact in the ICT sector.
+        </p>
+    </div>
+	
+	<div class="section-box">
+    <h2>Main Process Name (the system as a whole):</h2>
+    <p>
+        The diagram illustrates how the Centralized ICT Data Server Integration System 
+        connects various departments and external entities. It receives data such as service 
+        requests, configuration files, and user credentials, then processes and outputs 
+        reports, alerts, and performance summaries. This integration streamlines data 
+        sharing, enhances monitoring, and improves overall ICT operations efficiency.
+    </p>
+    <!-- Add your image here -->
+   <div style="text-align: center; margin-top: 20px;">
+    <img src="diagram.png" alt="System Diagram" style="width:100%; max-width:800px;">
+</div>
+
+		
+		
+
+</div>
+
+</body>
+</html>
